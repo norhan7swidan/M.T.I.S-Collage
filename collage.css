@@ -1,0 +1,100 @@
+body {
+    background-color: #f5f5f0;
+    color: #003cb3;
+}
+.a{
+     display: flex;
+     justify-content: space-between; 
+     align-items: center;
+     position: sticky; 
+     top:0.25%;
+     background-color: #f5f5f0;
+     width: 100%;
+}
+.a div{
+    font-size: 25px; 
+}
+.a a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+.i{
+    width:100%;
+    font-size: 20px;
+    box-shadow: 4px 2px 30px rgba(136, 136, 218, 0.3);
+}
+.i1,.i2,.i3,.i4,.i5{
+    width: 30%;
+    display: inline-block;
+    padding:1%;
+}
+.m{
+    padding:30px;
+}
+form {
+    border: 2px solid #003cb3;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+.ta th{
+    background-color:#80d4ff;
+}
+.ta{
+    color: black;
+}
+.t{
+    background-color:#80d4ff;
+}
+.footer{
+    background-color:gainsboro ;
+    width: 100%;
+}
+.footer h1,.div{
+    text-align: center;
+}
+.div{
+    font-size: 25px;
+    background-color:gainsboro ;
+    height:50px;
+}
+.footer p{
+    display: inline-block;
+    font-size: 23px;
+}
+.in input{
+    background-color: lightslategray;
+    color: white;
+    height:30px;
+    border-color: lightslategray;
+    font-size: 20px;
+}
+form{
+    font-size: 18px;
+}
+.ul{
+    font-size: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+.hh{
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: black;
+     padding: 50px;
+}
+/* .i1,.i2,.i3 img{
+    transition: transform 0.3s ease;
+} */
+.i1 img:hover{
+    transform: scale(1.2);
+}
+.i2 img:hover{
+    transform: scale(1.2);
+}
+.i3 img:hover{
+    transform: scale(1.2);
+}
